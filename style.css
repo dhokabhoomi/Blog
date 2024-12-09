@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #232830;
+}
+nav{
+    display: flex;
+    color: #FFFFFF;
+    margin-top: 74px;
+    margin-bottom: 80px;
+    justify-content: center;
+}
+.left{
+    font-size: 30px;
+}
+.right{
+    display: flex;
+    margin-left: 690px;
+    font-size: 24px;
+}
+.right>div{
+    margin-right: 36px;
+}
+.logo{
+    width: 200px;
+    display: block;
+    margin: 0 auto 40px auto;
+}
+.heading{
+    color: #FF7575;
+    text-align: center;
+    font-style: italic;
+}
+.subheading{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    margin: 17px 0 98px;
+}
+.category-listing{
+    border-top: 1px solid rgb(77, 77, 77, 0.4);
+    font-style: italic;
+    color: #909090;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 92px;
+    padding-top: 16px;
+}
+.category-listing>div{
+    margin-right: 36px;
+}
+.main-body{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 114px;
+}
+.div1,.div2,.div3,.div4,.div5,.div6,.div7,.div8,.div9{
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 22px;
+    margin-right: 24px;
+    width: 390px;
+    height: 440px;
+    margin-bottom: 36px;
+}
+.div1 img,.div2 img,.div3 img,.div4 img,.div5 img,.div6 img,.div7 img,.div8 img,.div9 img{
+    margin: 26px 26px 32px 26px;
+}
+.title{
+    font-size: 18px;
+    margin: 0 26px 0 26px;
+}
+.content{
+    font-size: 16px;
+    margin: 12px 26px 24px 26px;
+}
+p{
+    font-size: 20px;
+    margin: 0 26px 0 26px;
+    color: #0F1217;
+}
+.Pagination{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 156px;
+    font-style: italic;
+    
+}
+.Pagination>p{
+    color: #909090;
+}
+.red{
+    color: #FF7575;
+    border-top: 3px solid #FF7575; 
+    font-weight: 600;
+}
+
+section>p{
+    margin-right: 34px;
+}
+footer{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+    border-top: 3px solid rgb(77, 77, 77, 0.4);
+    padding-top: 30px;
+}
+.big-font{
+    font-size: 30px;
+}
+.footer-left{
+    display: flex;
+    margin-right: 744px;
+}
+.footer-left>div{
+    margin-right: 16px;
+}
+.blue{
+    background-color: #4699E0;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 13px 6px 13px;
+    font-size: 18px;
+}
